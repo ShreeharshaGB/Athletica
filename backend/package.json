@@ -1,0 +1,14 @@
+{
+  "name": "athletica-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Athletica",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
